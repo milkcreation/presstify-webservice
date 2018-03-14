@@ -3,7 +3,7 @@
 Plugin Name: Webservice
 Plugin URI: http://presstify.com/plugins/webservice
 Description: Gestion de webservice
-Version: 1.1.454
+Version: 1.0.0
 Author: Milkcreation
 Author URI: http://milkcreation.fr
 */
