@@ -1,0 +1,132 @@
+/* = GLOBAL = */
+h3 a.toggle-UI{
+	position:relative;
+	padding-left:15px;
+	color:#23282d;
+	text-decoration:none;
+	outline:none;
+}
+h3 a.toggle-UI > span.handler::before{
+	position:absolute;
+	left:0; top:50%;
+	font-size:20px;
+	line-height:1;
+	margin-top:-10px;
+	display:block;
+	content:"+";
+	width:20px;
+	height:20px;
+	z-index:1;
+	color:#23282d;
+}
+h3 a.toggle-UI.active > span.handler::before{
+	content:"-";
+}
+button.submit-action{
+	cursor:pointer;
+	padding:0.8em 0.5em;
+	font-size:14px;
+	background-color:#0073AA;
+	color:#FFF;
+	font-weight:bold;
+	border:solid 1px #0073AA;	
+}
+/* = URL DE REQUÊTE = */
+#tiFy_WebService_Client_Request > form > ul,
+#tiFy_WebService_Client_Request > form > ul > li{
+	box-sizing:border-box;
+	margin:0; padding:0;
+}
+#tiFy_WebService_Client_Request > form > ul::before,
+#tiFy_WebService_Client_Request > form > ul::after{
+	display:table;
+	content:"";
+}
+#tiFy_WebService_Client_Request > form > ul::after{
+	clear:both;	
+}
+#tiFy_WebService_Client_Request > form > ul{
+	list-style-type:none;
+	margin-left:-2px; margin-right:-2px;
+	margin-bottom:20px;
+}
+#tiFy_WebService_Client_Request > form > ul > li{
+	position:relative;
+	float:left;
+	padding:0 2px;
+	width:20%;
+}
+#tiFy_WebService_Client_Request > form > ul > li > label{
+	position:absolute;
+	top:0px; left:2px;
+	padding:0.2em 0.5em;
+	font-size:8px;
+	letter-spacing:0.05em;
+	line-height:1;
+	border:solid 1px #E4E4E4;
+	background-color:#FFF;
+	color:#0073AA;
+}
+#tiFy_WebService_Client_Request > form > ul > li:nth-child(1){
+	width:50%;
+}
+#tiFy_WebService_Client_Request > form > ul > li:nth-child(2),
+#tiFy_WebService_Client_Request > form > ul > li:nth-child(3){
+	width:20%;
+}
+#tiFy_WebService_Client_Request > form > ul > li:nth-child(4){
+	width:10%;
+}
+#tiFy_WebService_Client_Request > form > ul input{
+	padding:0.8em 0.5em;
+	width:100%;
+	margin:0;
+}
+#tiFy_WebService_Client_Request > form > ul button{
+	width:100%;
+	display:block;	
+}
+#tiFy_WebService_Client_Request > form > ul .tify_control_dropdown{
+	width:100%;
+    padding:12px 0.5em;
+}
+#tiFy_WebService_Client_Request > form > ul .tify_control_dropdown .selected{
+	font-size:14px;
+	font-weight:normal;
+	color: rgba( 51, 51, 51, 0.5 );
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+/* = EXPORT = */
+/** == Données d'export == **/
+#tiFy_WebService_Client_Export .datas{
+	
+}
+#tiFy_WebService_Client_Export form{
+	display:none;
+}
+#tiFy_WebService_Client_Export form button{
+	padding:0.8em 2em;
+}
+#tiFy_WebService_Client_Export .datas > ul,
+#tiFy_WebService_Client_Export .datas > ul > li{
+	box-sizing: border-box;
+}
+#tiFy_WebService_Client_Export .datas > ul::before,
+#tiFy_WebService_Client_Export .datas > ul::after{
+	display:table;
+	content:"";
+}
+#tiFy_WebService_Client_Export .datas > ul::after{
+	clear:both;
+}
+#tiFy_WebService_Client_Export .datas > ul > li{
+	float:left;
+	width:20%;
+}
+#tiFy_WebService_Client_Export .datas > ul > li:nth-child(5n+1){
+	clear:both;
+}
+#tiFy_WebService_Client_Export .datas > ul > li > label{
+	display:block;
+}

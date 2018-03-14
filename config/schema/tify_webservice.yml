@@ -1,0 +1,9 @@
+Admin:     
+  webServiceMenu:
+    admin_menu:
+      menu_slug:        'tify_webservice'
+      icon_url:         'dashicons-share'
+          
+Labels:
+  plural:               'Webservices'
+  singular:             'Webservice'      
