@@ -1,0 +1,11 @@
+Admin:     
+  webServiceListTable:
+    admin_menu:
+      parent_slug:      'tify_webservice'
+      menu_slug:        'tify_webservice'
+      position:         3
+    
+    cb:               '\tiFy\Plugins\WebService\Client\Admin\RestApi\ListTable'     
+                                    
+Labels:
+  menu_name:            "<?php _e( 'Interface client', 'tify' );?>"     
