@@ -3,8 +3,7 @@
   "description": "PresstiFy Plugin WebService",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "webservice"],
-  "homepage": "http://svn.milkcreation.fr/presstify-plugins/webservice",
-  "license": "proprietary",
+  "homepage": "https://github.com/milkcreation/presstify-webservice.git",
   "authors": [
     {
       "name": "Jordy Manner",
